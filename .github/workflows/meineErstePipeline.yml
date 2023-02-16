@@ -12,13 +12,7 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  
-  jobs:
-   build:
-    runs-on: ubuntu-latest
-    steps:
-     - name: funtkiontest
-       run: echo Hello funktionstest
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
